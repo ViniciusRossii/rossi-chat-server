@@ -1,0 +1,27 @@
+{
+  "name": "rossi-chat-server",
+  "version": "1.0.0",
+  "description": "Rossi Chat Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "supervisor index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusRossii/rossi-chat-server"
+  },
+  "author": "Vinicius Rossi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniciusRossii/rossi-chat/issues"
+  },
+  "homepage": "https://github.com/ViniciusRossii/rossi-chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
